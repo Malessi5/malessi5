@@ -1,0 +1,64 @@
+* {
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  font-size: 14px;
+}
+
+.infopic-container {
+  display: flex;
+  border: 5px black solid;
+}
+
+.about-container {
+  width: 50%;
+  min-width: 600px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 80px;
+  border: 1px black solid;
+}
+
+h1 {
+  text-align: left;
+}
+
+.photo {
+  width: 50%;
+  padding: 10px;
+}
+
+.photo img {
+  width: 95%;
+  border-radius: 50%;
+}
+
+.info {
+  width: 50%;
+  padding: 10px;
+}
+
+.info p {
+  text-align: left;
+}
+
+@media screen and (max-width: 600px) {
+  .about-container {
+    width: 100%;
+    min-width: 0;
+  }
+  .infopic-container {
+    flex-direction: column;
+    align-items: center;
+  }
+  .info {
+    width: 85%;
+  }
+  .info p {
+    text-align: justify;
+  }
+  .photo {
+    width: 100%;
+  }
+  .photo img {
+    width: 50%;
+  }
+}
