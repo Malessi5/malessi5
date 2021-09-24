@@ -12,10 +12,11 @@ export default function About() {
         <div className='info'>
           <p>
             Hi! My name is Mike Alessi and I'm a former Tech Salesperson turned
-            Full-stack Developer. I've always had an interest in web development
+            Full-stack Developer. I love learning about new technologies and
+            solving problems. I've always had an interest in web development
             which might have stemmed from building simple personal websites on
-            Geocities or customizing my (now non-existent) MySpace page back in
-            the day.
+            Geocities back in the day or customizing my (now non-existent)
+            MySpace.
           </p>{" "}
           <p>
             I'm a recent graduate of Fullstack Academy's Software Engineering
@@ -24,7 +25,31 @@ export default function About() {
           </p>
         </div>
       </div>
-      <div className='technologies'>tech</div>
+      <div className='technologies-container'>
+        <h2>Here's some of the technology I've been working with: </h2>
+        <div className='technologies'>
+          <div className='technology'>
+            <img src='pics/jslogo.png' alt='Javascript' />
+            <p>JavaScript</p>
+          </div>
+          <div className='technology'>
+            <img src='pics/htmllogo.png' alt='HTML' />
+            <p>HTML</p>
+          </div>
+          <div className='technology'>
+            <img src='pics/csslogo.png' alt='CSS' />
+            <p>CSS</p>
+          </div>{" "}
+          <div className='technology'>
+            <img src='pics/reactlogo.png' alt='React' />
+            <p>React.js</p>
+          </div>
+          <div className='technology'>
+            <img src='pics/nodelogo.svg' alt='Node' />
+            <p>Node.js</p>
+          </div>
+        </div>
+      </div>
     </div>
   );
 }

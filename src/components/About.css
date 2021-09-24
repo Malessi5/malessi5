@@ -1,16 +1,12 @@
-* {
-  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
-  font-size: 14px;
-}
-
 .infopic-container {
   display: flex;
   border: 5px black solid;
 }
 
 .about-container {
-  width: 50%;
-  min-width: 600px;
+  width: 80%;
+  min-width: 650px;
+  max-width: 800px;
   margin-left: auto;
   margin-right: auto;
   margin-top: 80px;
@@ -22,22 +18,52 @@ h1 {
 }
 
 .photo {
-  width: 50%;
+  width: 35%;
   padding: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .photo img {
   width: 95%;
   border-radius: 50%;
+  object-fit: contain;
+  transition: transform 1s ease-in-out;
+}
+
+.photo img:hover {
+  transform: rotate(360deg);
 }
 
 .info {
-  width: 50%;
+  width: 65%;
   padding: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 
 .info p {
   text-align: left;
+}
+
+.technologies {
+  display: flex;
+}
+
+.technology {
+  min-width: 20%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.technology img {
+  object-fit: contain;
+  max-height: 150px;
+  max-width: 150px;
 }
 
 @media screen and (max-width: 600px) {
