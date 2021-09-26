@@ -9,11 +9,6 @@ export default function Header() {
         <h3>Welcome!</h3>
       </div>
       <div className='links'>
-        <Link to='/' className='no-underline'>
-          <div className='header-link'>
-            <h4>Home</h4>
-          </div>
-        </Link>
         <Link to='/about' className='no-underline'>
           <div className='header-link'>
             <h4>About</h4>
