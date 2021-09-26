@@ -11,22 +11,17 @@ export default function About() {
         </div>
         <div className='info'>
           <p>
-            Hi! My name is Mike Alessi and I'm a former Tech Salesperson turned
-            Full-stack Developer. I love learning about new technologies and
-            solving problems. I've always had an interest in web development
-            which might have stemmed from building simple personal websites on
-            Geocities back in the day or customizing my (now non-existent)
-            MySpace.
-          </p>{" "}
-          <p>
-            I'm a recent graduate of Fullstack Academy's Software Engineering
-            Immersive bootcamp and am excited to continue my journey
-            professionally.{" "}
+            Hi! My name is Mike Alessi and I'm a former tech Salesperson turned
+            Full-stack Developer and a recent graduate of Fullstack Academy. I
+            love building things, solving problems, and learning about new
+            technologies. I've always had an interest in web development which
+            have stemmed from building simple personal websites on Geocities
+            back in the day.
           </p>
         </div>
       </div>
       <div className='technologies-container'>
-        <h2>Here's some of the technology I've been working with: </h2>
+        <h3>Here's some of the technology I've been working with lately: </h3>
         <div className='technologies'>
           <div className='technology'>
             <img src='pics/jslogo.png' alt='Javascript' />
@@ -45,8 +40,28 @@ export default function About() {
             <p>React.js</p>
           </div>
           <div className='technology'>
-            <img src='pics/nodelogo.svg' alt='Node' />
+            <img src='pics/reduxlogo.png' alt='Redux' />
+            <p>Redux.js</p>
+          </div>
+          <div className='technology'>
+            <img src='pics/nodelogo.png' alt='Node' />
             <p>Node.js</p>
+          </div>
+          <div className='technology'>
+            <img src='pics/gitlogo.png' alt='Git' />
+            <p>Git</p>
+          </div>
+          <div className='technology'>
+            <img src='pics/muilogo.png' alt='Material UI' />
+            <p>Material UI</p>
+          </div>
+          <div className='technology'>
+            <img src='pics/firebaselogo.png' alt='Firebase' />
+            <p>Firebase</p>
+          </div>
+          <div className='technology'>
+            <img src='pics/postgreslogo.png' alt='PostgreSQL' />
+            <p>PostgresSQL</p>
           </div>
         </div>
       </div>
