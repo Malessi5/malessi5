@@ -5,10 +5,12 @@
   margin-top: 80px;
   padding-bottom: 50px;
   padding-top: 1px;
-  min-width: 1000px;
-  max-width: 1000px;
+  min-width: 800px;
+  max-width: 800px;
   border-radius: 10px;
   box-shadow: 0px 0px 5px #08a4bd;
+  padding-left: 5px;
+  padding-right: 5px;
 }
 
 .projects {
@@ -19,7 +21,7 @@
 }
 
 .project {
-  border: 1px black solid;
+  border: 1px #08a4bd solid;
   min-width: 550px;
   max-width: 550px;
   min-height: 550px;
@@ -27,8 +29,9 @@
   flex-direction: column;
   justify-content: center;
   box-shadow: -15px 15px #28daf6;
-  border-radius: 10px;
+  border-radius: 3px;
   margin-bottom: 40px;
+  padding-bottom: 15px;
 }
 
 .project p {
@@ -38,10 +41,14 @@
 }
 
 .project-pic {
-  width: 380px;
+  width: 450px;
+  height: 275px;
   margin-top: 15px;
-  object-fit: contain;
+  object-fit: cover;
+  border: 1px #08a4bd solid;
+  border-radius: 3px;
   transition: transform 1s ease-in-out;
+  cursor: pointer;
 }
 
 .proj-pic-container {
@@ -51,21 +58,13 @@
 
 .project-pic:hover {
   transform: scale(1.75);
+  box-shadow: 0px 0px 5px #28daf6;
 }
 
-.proj-info {
-  /* margin-bottom: 15px;
-  margin-left: 5px;
-  margin-right: 5px;
-  height: 50%; */
-  /* position: relative; */
-  /* width: 100%; */
-  /* background-color: #28daf6; */
-}
 .proj-info-box h2 {
   background-color: #01172f;
   color: white;
-  border-radius: 50px;
+  border-radius: 5px;
 }
 .proj-info-box {
   /* width: 100%; */
@@ -129,7 +128,7 @@
     width: 90%;
     min-width: 350px;
     max-width: 350px;
-    height: 300px;
+    min-height: 300px;
     margin-bottom: 25px;
   }
   .project-pic {

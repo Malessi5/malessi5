@@ -1,11 +1,29 @@
-import React from "react";
+import React, {useState} from "react";
 
 export default function SingleProject(props) {
   const {name, description, tech, imgs, liveUrl, gitUrl} = props;
+  const maxImgIndex = imgs.length - 1;
+  let [imageIndex, setImageIndex] = useState(0);
+
+  function imgClickHandle() {
+    console.log(imageIndex, maxImgIndex);
+    if (imageIndex === maxImgIndex) {
+      setImageIndex(0);
+    } else {
+      let imgind = imageIndex + 1;
+      setImageIndex(imgind);
+    }
+  }
+
   return (
     <div className='project'>
       <div className='proj-pic-container'>
-        <img className='project-pic' src={imgs[0]} alt={name} />
+        <img
+          className='project-pic'
+          onClick={imgClickHandle}
+          src={imgs[imageIndex]}
+          alt={name}
+        />
       </div>
       <div className='proj-info'>
         <div className='proj-info-box'>

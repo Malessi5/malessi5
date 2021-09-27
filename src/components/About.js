@@ -24,48 +24,61 @@ export default function About() {
         <h3>Here's some of the technology I've been working with lately: </h3>
         <div className='technologies'>
           <div className='technology'>
-            <img src='pics/jslogo.png' alt='Javascript' />
+            <img src='pics/logos/jslogo.png' alt='Javascript' />
             <p>JavaScript</p>
           </div>
           <div className='technology'>
-            <img src='pics/htmllogo.png' alt='HTML' />
+            <img src='pics/logos/htmllogo.png' alt='HTML' />
             <p>HTML</p>
           </div>
           <div className='technology'>
-            <img src='pics/csslogo.png' alt='CSS' />
+            <img src='pics/logos/csslogo.png' alt='CSS' />
             <p>CSS</p>
           </div>{" "}
           <div className='technology'>
-            <img src='pics/reactlogo.png' alt='React' />
+            <img src='pics/logos/reactlogo.png' alt='React' />
             <p>React.js</p>
           </div>
           <div className='technology'>
-            <img src='pics/reduxlogo.png' alt='Redux' />
+            <img src='pics/logos/reduxlogo.png' alt='Redux' />
             <p>Redux.js</p>
           </div>
           <div className='technology'>
-            <img src='pics/nodelogo.png' alt='Node' />
+            <img src='pics/logos/nodelogo.png' alt='Node' />
             <p>Node.js</p>
           </div>
           <div className='technology'>
-            <img src='pics/gitlogo.png' alt='Git' />
-            <p>Git</p>
-          </div>
-          <div className='technology'>
-            <img src='pics/muilogo.png' alt='Material UI' />
-            <p>Material UI</p>
-          </div>
-          <div className='technology'>
-            <img src='pics/firebaselogo.png' alt='Firebase' />
+            <img src='pics/logos/firebaselogo.png' alt='Firebase' />
             <p>Firebase</p>
           </div>
           <div className='technology'>
-            <img src='pics/postgreslogo.png' alt='PostgreSQL' />
+            <img src='pics/logos/postgreslogo.png' alt='PostgreSQL' />
             <p>PostgresSQL</p>
+          </div>
+          <div className='technology'>
+            <img src='pics/logos/gitlogo.png' alt='Git' />
+            <p>Git</p>
+          </div>
+          <div className='technology'>
+            <img src='pics/logos/muilogo.png' alt='Material UI' />
+            <p>Material UI</p>
           </div>
         </div>
       </div>
-      <div>download resume</div>
+      <div>
+        <div className='learning-more'>
+          <h3>Interested in learning a bit more about me?</h3>
+          <div className='learn-more-links-container'>
+            <div className='learn-more-link'>Download Resume</div>
+            <div className='learn-more-link'>
+              <img src='pics/logos/githublogolong.png' alt='github' />
+            </div>
+            <div className='learn-more-link'>
+              <img src='pics/logos/linkedinlogo.png' alt='linkedin' />
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
   );
 }
