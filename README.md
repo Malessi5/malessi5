@@ -1,3 +1,1 @@
-# Mike Alessi's Portfolio
-
-**Currently under construction**
+# Welcome to my GitHub!
