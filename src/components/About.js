@@ -74,7 +74,7 @@ export default function About() {
               target='blank'
               className='learn-more-link'
             >
-              View Resume
+              <b>View Resume</b>
             </a>
             <a
               href='https://github.com/Malessi5'

@@ -6,7 +6,7 @@ export default function Header() {
   return (
     <div className='header-container'>
       <div className='header-welcome'>
-        <h3>Mike Alessi</h3>
+        <h3>Mike Alessi - Full Stack Developer</h3>
       </div>
       <div className='links'>
         <Link to='/projects' className='no-underline'>
