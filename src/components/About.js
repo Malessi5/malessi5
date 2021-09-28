@@ -1,5 +1,19 @@
 import React from "react";
 import "./About.css";
+import photo from "../pics/photo.jpeg";
+import jslogo from "../pics/logos/jslogo.png";
+import htmlLogo from "../pics/logos/htmllogo.png";
+import cssLogo from "../pics/logos/csslogo.png";
+import reactLogo from "../pics/logos/reactlogo.png";
+import reduxLogo from "../pics/logos/reduxlogo.png";
+import nodeLogo from "../pics/logos/nodelogo.png";
+import firebaseLogo from "../pics/logos/firebaselogo.png";
+import postgresLogo from "../pics/logos/postgreslogo.png";
+import gitLogo from "../pics/logos/gitlogo.png";
+import muiLogo from "../pics/logos/muilogo.png";
+import githubLongLogo from "../pics/logos/githublogolong.png";
+import linkedInLogo from "../pics/logos/linkedinlogo.png";
+import resume from "../pics/resume/Michael-Alessi-resume-2021.pdf";
 
 export default function About() {
   return (
@@ -7,7 +21,7 @@ export default function About() {
       <h1>About me</h1>
       <div className='infopic-container'>
         <div className='photo'>
-          <img src='pics/photo.jpeg' alt="It's me" />
+          <img src={photo} alt="It's me" />
         </div>
         <div className='info'>
           <p>
@@ -24,43 +38,43 @@ export default function About() {
         <h3>Here's some of the technology I've been working with lately: </h3>
         <div className='technologies'>
           <div className='technology'>
-            <img src='pics/logos/jslogo.png' alt='Javascript' />
+            <img src={jslogo} alt='Javascript' />
             <p>JavaScript</p>
           </div>
           <div className='technology'>
-            <img src='pics/logos/htmllogo.png' alt='HTML' />
+            <img src={htmlLogo} alt='HTML' />
             <p>HTML</p>
           </div>
           <div className='technology'>
-            <img src='pics/logos/csslogo.png' alt='CSS' />
+            <img src={cssLogo} alt='CSS' />
             <p>CSS</p>
           </div>{" "}
           <div className='technology'>
-            <img src='pics/logos/reactlogo.png' alt='React' />
+            <img src={reactLogo} alt='React' />
             <p>React.js</p>
           </div>
           <div className='technology'>
-            <img src='pics/logos/reduxlogo.png' alt='Redux' />
+            <img src={reduxLogo} alt='Redux' />
             <p>Redux.js</p>
           </div>
           <div className='technology'>
-            <img src='pics/logos/nodelogo.png' alt='Node' />
+            <img src={nodeLogo} alt='Node' />
             <p>Node.js</p>
           </div>
           <div className='technology'>
-            <img src='pics/logos/firebaselogo.png' alt='Firebase' />
+            <img src={firebaseLogo} alt='Firebase' />
             <p>Firebase</p>
           </div>
           <div className='technology'>
-            <img src='pics/logos/postgreslogo.png' alt='PostgreSQL' />
+            <img src={postgresLogo} alt='PostgreSQL' />
             <p>PostgresSQL</p>
           </div>
           <div className='technology'>
-            <img src='pics/logos/gitlogo.png' alt='Git' />
+            <img src={gitLogo} alt='Git' />
             <p>Git</p>
           </div>
           <div className='technology'>
-            <img src='pics/logos/muilogo.png' alt='Material UI' />
+            <img src={muiLogo} alt='Material UI' />
             <p>Material UI</p>
           </div>
         </div>
@@ -69,11 +83,7 @@ export default function About() {
         <div className='learning-more'>
           <h3>Interested in learning a bit more about me?</h3>
           <div className='learn-more-links-container'>
-            <a
-              href='./resume/Michael-Alessi-resume-2021.pdf'
-              target='blank'
-              className='learn-more-link'
-            >
+            <a href={resume} target='blank' className='learn-more-link'>
               <b>View Resume</b>
             </a>
             <a
@@ -81,14 +91,14 @@ export default function About() {
               target='blank'
               className='learn-more-link'
             >
-              <img src='pics/logos/githublogolong.png' alt='github' />
+              <img src={githubLongLogo} alt='github' />
             </a>
             <a
               href='https://www.linkedin.com/in/mpalessi/'
               target='blank'
               className='learn-more-link'
             >
-              <img src='pics/logos/linkedinlogo.png' alt='linkedin' />
+              <img src={linkedInLogo} alt='linkedin' />
             </a>
           </div>
         </div>
