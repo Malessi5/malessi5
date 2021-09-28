@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/malessi5/static/css/main.ce07cde1.chunk.css",
-    "main.js": "/malessi5/static/js/main.628ee777.chunk.js",
-    "main.js.map": "/malessi5/static/js/main.628ee777.chunk.js.map",
+    "main.js": "/malessi5/static/js/main.38681191.chunk.js",
+    "main.js.map": "/malessi5/static/js/main.38681191.chunk.js.map",
     "runtime-main.js": "/malessi5/static/js/runtime-main.d382df05.js",
     "runtime-main.js.map": "/malessi5/static/js/runtime-main.d382df05.js.map",
     "static/js/2.6cf65bb2.chunk.js": "/malessi5/static/js/2.6cf65bb2.chunk.js",
@@ -12,13 +12,19 @@
     "index.html": "/malessi5/index.html",
     "static/css/main.ce07cde1.chunk.css.map": "/malessi5/static/css/main.ce07cde1.chunk.css.map",
     "static/js/2.6cf65bb2.chunk.js.LICENSE.txt": "/malessi5/static/js/2.6cf65bb2.chunk.js.LICENSE.txt",
+    "static/media/Michael-Alessi-resume-2021.b90b7453.pdf": "/malessi5/static/media/Michael-Alessi-resume-2021.b90b7453.pdf",
+    "static/media/githublogolong.287a4321.png": "/malessi5/static/media/githublogolong.287a4321.png",
     "static/media/jslogo.266bd9fb.png": "/malessi5/static/media/jslogo.266bd9fb.png",
-    "static/media/photo.87f97ce0.jpeg": "/malessi5/static/media/photo.87f97ce0.jpeg"
+    "static/media/nodelogo.8e341cc0.png": "/malessi5/static/media/nodelogo.8e341cc0.png",
+    "static/media/photo.87f97ce0.jpeg": "/malessi5/static/media/photo.87f97ce0.jpeg",
+    "static/media/postgreslogo.6c5d698f.png": "/malessi5/static/media/postgreslogo.6c5d698f.png",
+    "static/media/reactlogo.e310fdba.png": "/malessi5/static/media/reactlogo.e310fdba.png",
+    "static/media/reduxlogo.b3b939c6.png": "/malessi5/static/media/reduxlogo.b3b939c6.png"
   },
   "entrypoints": [
     "static/js/runtime-main.d382df05.js",
     "static/js/2.6cf65bb2.chunk.js",
     "static/css/main.ce07cde1.chunk.css",
-    "static/js/main.628ee777.chunk.js"
+    "static/js/main.38681191.chunk.js"
   ]
 }
