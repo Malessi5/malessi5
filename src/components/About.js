@@ -69,13 +69,27 @@ export default function About() {
         <div className='learning-more'>
           <h3>Interested in learning a bit more about me?</h3>
           <div className='learn-more-links-container'>
-            <div className='learn-more-link'>Download Resume</div>
-            <div className='learn-more-link'>
+            <a
+              href='./resume/Michael-Alessi-resume-2021.pdf'
+              target='blank'
+              className='learn-more-link'
+            >
+              View Resume
+            </a>
+            <a
+              href='https://github.com/Malessi5'
+              target='blank'
+              className='learn-more-link'
+            >
               <img src='pics/logos/githublogolong.png' alt='github' />
-            </div>
-            <div className='learn-more-link'>
+            </a>
+            <a
+              href='https://www.linkedin.com/in/mpalessi/'
+              target='blank'
+              className='learn-more-link'
+            >
               <img src='pics/logos/linkedinlogo.png' alt='linkedin' />
-            </div>
+            </a>
           </div>
         </div>
       </div>

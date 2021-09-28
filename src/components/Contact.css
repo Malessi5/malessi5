@@ -1,0 +1,78 @@
+.contact-container {
+  width: 80%;
+  min-width: 700px;
+  max-width: 800px;
+  margin-left: auto;
+  margin-right: auto;
+  /* margin-top: 80px; */
+  /* border: 1px black solid; */
+  border-radius: 10px;
+  box-shadow: 0px 0px 5px #08a4bd;
+  padding: 5px;
+}
+
+form {
+  margin-left: auto;
+  margin-right: auto;
+  width: 600px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.form-fields {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 85%;
+}
+
+.form-field {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+label {
+  text-align: left;
+  width: 82%;
+  margin-top: 15px;
+  margin-bottom: 5px;
+}
+
+input {
+  width: 80%;
+  height: 20px;
+  border: 1px solid #08a4bd;
+  border-radius: 5px;
+}
+textarea {
+  width: 80%;
+  height: 200px;
+  margin-bottom: 15px;
+  border: 1px solid #08a4bd;
+  border-radius: 5px;
+}
+
+.form-buttons {
+  width: 80%;
+  display: flex;
+  justify-content: space-evenly;
+  margin-bottom: 15px;
+  margin-top: 5px;
+}
+
+.form-buttons button {
+  width: 100px;
+  height: 35px;
+  border: 1px solid #01172f;
+  background-color: #01172f;
+  color: white;
+  border-radius: 5px;
+}
+
+.form-buttons button:hover {
+  box-shadow: 0px 0px 5px #4c212a;
+}

@@ -1,9 +1,13 @@
 .header-container {
   display: flex;
   width: 100vw;
+  position: sticky;
+  top: 0;
   background-color: #01172f;
   /* background-color: #262730; */
   justify-content: space-between;
+  z-index: 5;
+  margin-bottom: 25px;
 }
 
 .links {
@@ -43,6 +47,7 @@
   }
   .header-container {
     flex-direction: column;
+    margin-bottom: 2px;
   }
   .header-link {
     width: 100%;

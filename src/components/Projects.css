@@ -2,7 +2,8 @@
   /* border: 1px black solid; */
   margin-left: auto;
   margin-right: auto;
-  margin-top: 80px;
+  margin-bottom: 25px;
+  /* margin-top: 80px; */
   padding-bottom: 50px;
   padding-top: 1px;
   min-width: 800px;
@@ -109,6 +110,7 @@
 }
 .git-link:hover {
   box-shadow: 0px 0px 5px #4c212a;
+  cursor: default;
 }
 
 .git-link img {
@@ -130,6 +132,7 @@
     max-width: 350px;
     min-height: 300px;
     margin-bottom: 25px;
+    box-shadow: -5px 5px 1px #08a4bd;
   }
   .project-pic {
     width: 300px;
