@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/malessi5/static/css/main.9969c072.chunk.css",
-    "main.js": "/malessi5/static/js/main.98977dfe.chunk.js",
-    "main.js.map": "/malessi5/static/js/main.98977dfe.chunk.js.map",
+    "main.css": "/malessi5/static/css/main.b384e2f0.chunk.css",
+    "main.js": "/malessi5/static/js/main.e8af8981.chunk.js",
+    "main.js.map": "/malessi5/static/js/main.e8af8981.chunk.js.map",
     "runtime-main.js": "/malessi5/static/js/runtime-main.d382df05.js",
     "runtime-main.js.map": "/malessi5/static/js/runtime-main.d382df05.js.map",
     "static/js/2.a378898a.chunk.js": "/malessi5/static/js/2.a378898a.chunk.js",
@@ -10,9 +10,9 @@
     "static/js/3.e0fa7b25.chunk.js": "/malessi5/static/js/3.e0fa7b25.chunk.js",
     "static/js/3.e0fa7b25.chunk.js.map": "/malessi5/static/js/3.e0fa7b25.chunk.js.map",
     "index.html": "/malessi5/index.html",
-    "static/css/main.9969c072.chunk.css.map": "/malessi5/static/css/main.9969c072.chunk.css.map",
+    "static/css/main.b384e2f0.chunk.css.map": "/malessi5/static/css/main.b384e2f0.chunk.css.map",
     "static/js/2.a378898a.chunk.js.LICENSE.txt": "/malessi5/static/js/2.a378898a.chunk.js.LICENSE.txt",
-    "static/media/Michael-Alessi-resume-2021.b90b7453.pdf": "/malessi5/static/media/Michael-Alessi-resume-2021.b90b7453.pdf",
+    "static/media/Michael-Alessi-resume-2021.0854ab68.pdf": "/malessi5/static/media/Michael-Alessi-resume-2021.0854ab68.pdf",
     "static/media/drink1.9649ace8.png": "/malessi5/static/media/drink1.9649ace8.png",
     "static/media/drink2.3a8ff8cb.png": "/malessi5/static/media/drink2.3a8ff8cb.png",
     "static/media/drink3.1bdd49b6.png": "/malessi5/static/media/drink3.1bdd49b6.png",
@@ -29,13 +29,17 @@
     "static/media/pk5.77080a04.png": "/malessi5/static/media/pk5.77080a04.png",
     "static/media/pk6.a703b1a5.png": "/malessi5/static/media/pk6.a703b1a5.png",
     "static/media/postgreslogo.6c5d698f.png": "/malessi5/static/media/postgreslogo.6c5d698f.png",
+    "static/media/ray1.ca4ae49e.png": "/malessi5/static/media/ray1.ca4ae49e.png",
+    "static/media/ray2.f4f61d2a.png": "/malessi5/static/media/ray2.f4f61d2a.png",
+    "static/media/ray3.37fe5986.png": "/malessi5/static/media/ray3.37fe5986.png",
+    "static/media/ray4.7ea82206.png": "/malessi5/static/media/ray4.7ea82206.png",
     "static/media/reactlogo.e310fdba.png": "/malessi5/static/media/reactlogo.e310fdba.png",
     "static/media/reduxlogo.b3b939c6.png": "/malessi5/static/media/reduxlogo.b3b939c6.png"
   },
   "entrypoints": [
     "static/js/runtime-main.d382df05.js",
     "static/js/2.a378898a.chunk.js",
-    "static/css/main.9969c072.chunk.css",
-    "static/js/main.98977dfe.chunk.js"
+    "static/css/main.b384e2f0.chunk.css",
+    "static/js/main.e8af8981.chunk.js"
   ]
 }
