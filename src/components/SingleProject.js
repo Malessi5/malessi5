@@ -1,4 +1,5 @@
 import React, {useState} from "react";
+import gitHubLogo from "../pics/githublogo.png";
 
 export default function SingleProject(props) {
   const {name, description, tech, imgs, liveUrl, gitUrl} = props;
@@ -46,7 +47,7 @@ export default function SingleProject(props) {
             Live Site
           </a>
           <a href={gitUrl} className='git-link' target='blank'>
-            <img src='pics/githublogo.png' alt='github link' />
+            <img src={gitHubLogo} alt='github link' />
           </a>
         </div>
       </div>

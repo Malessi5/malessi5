@@ -1,3 +1,16 @@
+import pk1 from "./pics/pkwar/pk1.png";
+import pk2 from "./pics/pkwar/pk2.png";
+import pk3 from "./pics/pkwar/pk3.png";
+import pk4 from "./pics/pkwar/pk4.png";
+import pk5 from "./pics/pkwar/pk5.png";
+import pk6 from "./pics/pkwar/pk6.png";
+
+import drink1 from "./pics/drinkrandom/drink1.png";
+import drink2 from "./pics/drinkrandom/drink2.png";
+import drink3 from "./pics/drinkrandom/drink3.png";
+import drink4 from "./pics/drinkrandom/drink4.png";
+import drink5 from "./pics/drinkrandom/drink5.png";
+
 const data = [
   {
     id: 1,
@@ -8,14 +21,7 @@ const data = [
     gitUrl: "https://github.com/bell-peppers/PokeWar",
     techStack:
       "React, Redux, Firebase, Material UI, and a 3rd-party api (PokeAPI).",
-    imageUrls: [
-      "pics/pkwar/pk1.png",
-      "pics/pkwar/pk2.png",
-      "pics/pkwar/pk3.png",
-      "pics/pkwar/pk4.png",
-      "pics/pkwar/pk5.png",
-      "pics/pkwar/pk6.png",
-    ],
+    imageUrls: [pk1, pk2, pk3, pk4, pk5, pk6],
   },
   {
     id: 2,
@@ -38,13 +44,7 @@ const data = [
     gitUrl: "https://github.com/Malessi5/Stackathon",
     techStack:
       "Firebase, Express.js, React/Redux, Node.js, Material UI, 3rd party API",
-    imageUrls: [
-      "pics/drinkrandom/drink1.png",
-      "pics/drinkrandom/drink2.png",
-      "pics/drinkrandom/drink3.png",
-      "pics/drinkrandom/drink4.png",
-      "pics/drinkrandom/drink5.png",
-    ],
+    imageUrls: [drink1, drink2, drink3, drink4, drink5],
   },
 ];
 
