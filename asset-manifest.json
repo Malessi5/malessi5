@@ -1,17 +1,17 @@
 {
   "files": {
     "main.css": "/malessi5/static/css/main.ce07cde1.chunk.css",
-    "main.js": "/malessi5/static/js/main.57bcf9ed.chunk.js",
-    "main.js.map": "/malessi5/static/js/main.57bcf9ed.chunk.js.map",
+    "main.js": "/malessi5/static/js/main.98977dfe.chunk.js",
+    "main.js.map": "/malessi5/static/js/main.98977dfe.chunk.js.map",
     "runtime-main.js": "/malessi5/static/js/runtime-main.d382df05.js",
     "runtime-main.js.map": "/malessi5/static/js/runtime-main.d382df05.js.map",
-    "static/js/2.6cf65bb2.chunk.js": "/malessi5/static/js/2.6cf65bb2.chunk.js",
-    "static/js/2.6cf65bb2.chunk.js.map": "/malessi5/static/js/2.6cf65bb2.chunk.js.map",
+    "static/js/2.a378898a.chunk.js": "/malessi5/static/js/2.a378898a.chunk.js",
+    "static/js/2.a378898a.chunk.js.map": "/malessi5/static/js/2.a378898a.chunk.js.map",
     "static/js/3.e0fa7b25.chunk.js": "/malessi5/static/js/3.e0fa7b25.chunk.js",
     "static/js/3.e0fa7b25.chunk.js.map": "/malessi5/static/js/3.e0fa7b25.chunk.js.map",
     "index.html": "/malessi5/index.html",
     "static/css/main.ce07cde1.chunk.css.map": "/malessi5/static/css/main.ce07cde1.chunk.css.map",
-    "static/js/2.6cf65bb2.chunk.js.LICENSE.txt": "/malessi5/static/js/2.6cf65bb2.chunk.js.LICENSE.txt",
+    "static/js/2.a378898a.chunk.js.LICENSE.txt": "/malessi5/static/js/2.a378898a.chunk.js.LICENSE.txt",
     "static/media/Michael-Alessi-resume-2021.b90b7453.pdf": "/malessi5/static/media/Michael-Alessi-resume-2021.b90b7453.pdf",
     "static/media/drink1.9649ace8.png": "/malessi5/static/media/drink1.9649ace8.png",
     "static/media/drink2.3a8ff8cb.png": "/malessi5/static/media/drink2.3a8ff8cb.png",
@@ -34,8 +34,8 @@
   },
   "entrypoints": [
     "static/js/runtime-main.d382df05.js",
-    "static/js/2.6cf65bb2.chunk.js",
+    "static/js/2.a378898a.chunk.js",
     "static/css/main.ce07cde1.chunk.css",
-    "static/js/main.57bcf9ed.chunk.js"
+    "static/js/main.98977dfe.chunk.js"
   ]
 }
