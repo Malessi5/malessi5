@@ -45,7 +45,6 @@
   width: 450px;
   height: 275px;
   margin-top: 15px;
-  object-fit: cover;
   border: 1px #08a4bd solid;
   border-radius: 3px;
   transition: transform 1s ease-in-out;
@@ -55,6 +54,7 @@
 .proj-pic-container {
   height: 50%;
   z-index: 2;
+  position: relative;
 }
 
 .project-pic:hover {
@@ -144,10 +144,6 @@
     height: 40%;
     z-index: 2;
   }
-  /* .projects {
-    flex-direction: column;
-    align-items: center;
-  } */
 
   .project-pic:hover {
     transform: none;

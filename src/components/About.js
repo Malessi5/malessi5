@@ -17,89 +17,91 @@ import resume from "../pics/resume/Michael-Alessi-resume-2021.pdf";
 
 export default function About() {
   return (
-    <div className='about-container'>
-      <h1>About me</h1>
-      <div className='infopic-container'>
-        <div className='photo'>
-          <img src={photo} alt="It's me" />
-        </div>
-        <div className='info'>
-          <p>
-            Hi! My name is Mike Alessi and I'm a former tech Salesperson turned
-            Full-stack Developer and a recent graduate of Fullstack Academy. I
-            love building things, solving problems, and learning about new
-            technologies. I've always had an interest in web development which
-            have stemmed from building simple personal websites on Geocities
-            back in the day.
-          </p>
-        </div>
-      </div>
-      <div className='technologies-container'>
-        <h3>Here's some of the technology I've been working with lately: </h3>
-        <div className='technologies'>
-          <div className='technology'>
-            <img src={jslogo} alt='Javascript' />
-            <p>JavaScript</p>
+    <div className='main-container'>
+      <div className='about-container'>
+        <h1>About me</h1>
+        <div className='infopic-container'>
+          <div className='photo'>
+            <img src={photo} alt="It's me" />
           </div>
-          <div className='technology'>
-            <img src={htmlLogo} alt='HTML' />
-            <p>HTML</p>
-          </div>
-          <div className='technology'>
-            <img src={cssLogo} alt='CSS' />
-            <p>CSS</p>
-          </div>{" "}
-          <div className='technology'>
-            <img src={reactLogo} alt='React' />
-            <p>React.js</p>
-          </div>
-          <div className='technology'>
-            <img src={reduxLogo} alt='Redux' />
-            <p>Redux.js</p>
-          </div>
-          <div className='technology'>
-            <img src={nodeLogo} alt='Node' />
-            <p>Node.js</p>
-          </div>
-          <div className='technology'>
-            <img src={firebaseLogo} alt='Firebase' />
-            <p>Firebase</p>
-          </div>
-          <div className='technology'>
-            <img src={postgresLogo} alt='PostgreSQL' />
-            <p>PostgresSQL</p>
-          </div>
-          <div className='technology'>
-            <img src={gitLogo} alt='Git' />
-            <p>Git</p>
-          </div>
-          <div className='technology'>
-            <img src={muiLogo} alt='Material UI' />
-            <p>Material UI</p>
+          <div className='info'>
+            <p>
+              Hi! My name is Mike Alessi and I'm a former tech Salesperson
+              turned Full-stack Developer and a recent graduate of Fullstack
+              Academy. I love building things, solving problems, and learning
+              about new technologies. I've always had an interest in web
+              development which have stemmed from building simple personal
+              websites on Geocities back in the day.
+            </p>
           </div>
         </div>
-      </div>
-      <div>
-        <div className='learning-more'>
-          <h3>Interested in learning a bit more about me?</h3>
-          <div className='learn-more-links-container'>
-            <a href={resume} target='blank' className='learn-more-link'>
-              <b>View Resume</b>
-            </a>
-            <a
-              href='https://github.com/Malessi5'
-              target='blank'
-              className='learn-more-link'
-            >
-              <img src={githubLongLogo} alt='github' />
-            </a>
-            <a
-              href='https://www.linkedin.com/in/mpalessi/'
-              target='blank'
-              className='learn-more-link'
-            >
-              <img src={linkedInLogo} alt='linkedin' />
-            </a>
+        <div className='technologies-container'>
+          <h3>Here's some of the technology I've been working with lately: </h3>
+          <div className='technologies'>
+            <div className='technology'>
+              <img src={jslogo} alt='Javascript' />
+              <p>JavaScript</p>
+            </div>
+            <div className='technology'>
+              <img src={htmlLogo} alt='HTML' />
+              <p>HTML</p>
+            </div>
+            <div className='technology'>
+              <img src={cssLogo} alt='CSS' />
+              <p>CSS</p>
+            </div>{" "}
+            <div className='technology'>
+              <img src={reactLogo} alt='React' />
+              <p>React.js</p>
+            </div>
+            <div className='technology'>
+              <img src={reduxLogo} alt='Redux' />
+              <p>Redux.js</p>
+            </div>
+            <div className='technology'>
+              <img src={nodeLogo} alt='Node' />
+              <p>Node.js</p>
+            </div>
+            <div className='technology'>
+              <img src={firebaseLogo} alt='Firebase' />
+              <p>Firebase</p>
+            </div>
+            <div className='technology'>
+              <img src={postgresLogo} alt='PostgreSQL' />
+              <p>PostgresSQL</p>
+            </div>
+            <div className='technology'>
+              <img src={gitLogo} alt='Git' />
+              <p>Git</p>
+            </div>
+            <div className='technology'>
+              <img src={muiLogo} alt='Material UI' />
+              <p>Material UI</p>
+            </div>
+          </div>
+        </div>
+        <div>
+          <div className='learning-more'>
+            <h3>Interested in learning a bit more about me?</h3>
+            <div className='learn-more-links-container'>
+              <a href={resume} target='blank' className='learn-more-link'>
+                <b>View Resume</b>
+              </a>
+              <a
+                href='https://github.com/Malessi5'
+                target='blank'
+                className='learn-more-link'
+              >
+                <img src={githubLongLogo} alt='github' />
+              </a>
+              <a
+                href='https://www.linkedin.com/in/mpalessi/'
+                target='blank'
+                className='learn-more-link'
+              >
+                <img src={linkedInLogo} alt='linkedin' />
+              </a>
+            </div>
           </div>
         </div>
       </div>

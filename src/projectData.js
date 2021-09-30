@@ -11,6 +11,11 @@ import drink3 from "./pics/drinkrandom/drink3.png";
 import drink4 from "./pics/drinkrandom/drink4.png";
 import drink5 from "./pics/drinkrandom/drink5.png";
 
+import ray1 from "./pics/rays/ray1.png";
+import ray2 from "./pics/rays/ray2.png";
+import ray3 from "./pics/rays/ray3.png";
+import ray4 from "./pics/rays/ray4.png";
+
 const data = [
   {
     id: 1,
@@ -27,13 +32,11 @@ const data = [
     id: 2,
     name: "Ray's Kitchen",
     description:
-      "Fully functioning mock e-commerce website. Features include: user authentication, working shopping cart, item pagination.",
+      "Fully functioning e-commerce website. Features include: user authentication, working shopping cart, item pagination.",
     liveUrl: "https://graceshopper-fullstack.herokuapp.com/",
     gitUrl: "https://github.com/Brownie-Batter/graceshopper-project",
     techStack: "PostgreSQL, Express.js, React/Redux, Node.js., Material UI",
-    imageUrls: [
-      "https://camo.githubusercontent.com/49bc0b0957097b32721516777c1b72472f5e89f5739c7151efa2b4b8a2a5cc4d/68747470733a2f2f63646e2e6c6f6f6d2e636f6d2f73657373696f6e732f7468756d626e61696c732f30393661343066343136323734346364386461353538373138613463353738342d776974682d706c61792e676966",
-    ],
+    imageUrls: [ray1, ray2, ray3, ray4],
   },
   {
     id: 3,

@@ -57,69 +57,71 @@ export default function Contact() {
   }
 
   return (
-    <div className='contact-container'>
-      <h1>Contact Me</h1>
-      <form>
-        <div className='form-fields'>
-          <div className='form-field'>
-            <label>Name</label>
-            <input
-              name='name'
-              id='name'
-              value={name}
-              onChange={(e) => {
-                onChangeHandle(e);
-              }}
-            />
+    <div className='main-container'>
+      <div className='contact-container'>
+        <h1>Contact Me</h1>
+        <form>
+          <div className='form-fields'>
+            <div className='form-field'>
+              <label>Name</label>
+              <input
+                name='name'
+                id='name'
+                value={name}
+                onChange={(e) => {
+                  onChangeHandle(e);
+                }}
+              />
+            </div>
+            <div className='form-field'>
+              <label>Email Address</label>
+              <input
+                name='email'
+                id='email'
+                value={email}
+                onChange={(e) => {
+                  onChangeHandle(e);
+                }}
+              />
+            </div>
+            <div className='form-field'>
+              <label>Subject</label>
+              <input
+                name='subject'
+                id='subject'
+                value={subject}
+                onChange={(e) => {
+                  onChangeHandle(e);
+                }}
+              />
+            </div>
+            <div className='form-field'>
+              <label>Message</label>
+              <textarea
+                name='message'
+                id='message'
+                value={message}
+                onChange={(e) => {
+                  onChangeHandle(e);
+                }}
+              />
+            </div>
           </div>
-          <div className='form-field'>
-            <label>Email Address</label>
-            <input
-              name='email'
-              id='email'
-              value={email}
-              onChange={(e) => {
-                onChangeHandle(e);
+          <div className='form-buttons'>
+            <button
+              type='button'
+              onClick={(e) => {
+                handleSubmit(e);
               }}
-            />
+            >
+              Submit
+            </button>
+            <button type='button' onClick={clearHandle}>
+              Clear
+            </button>
           </div>
-          <div className='form-field'>
-            <label>Subject</label>
-            <input
-              name='subject'
-              id='subject'
-              value={subject}
-              onChange={(e) => {
-                onChangeHandle(e);
-              }}
-            />
-          </div>
-          <div className='form-field'>
-            <label>Message</label>
-            <textarea
-              name='message'
-              id='message'
-              value={message}
-              onChange={(e) => {
-                onChangeHandle(e);
-              }}
-            />
-          </div>
-        </div>
-        <div className='form-buttons'>
-          <button
-            type='button'
-            onClick={(e) => {
-              handleSubmit(e);
-            }}
-          >
-            Submit
-          </button>
-          <button type='button' onClick={clearHandle}>
-            Clear
-          </button>
-        </div>
-      </form>
+        </form>
+      </div>
     </div>
   );
 }

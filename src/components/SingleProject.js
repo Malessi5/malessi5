@@ -1,4 +1,4 @@
-import React, {useState} from "react";
+import React, {useState, useEffect} from "react";
 import gitHubLogo from "../pics/githublogo.png";
 
 export default function SingleProject(props) {
@@ -7,7 +7,6 @@ export default function SingleProject(props) {
   let [imageIndex, setImageIndex] = useState(0);
 
   function imgClickHandle() {
-    console.log(imageIndex, maxImgIndex);
     if (imageIndex === maxImgIndex) {
       setImageIndex(0);
     } else {
@@ -15,6 +14,31 @@ export default function SingleProject(props) {
       setImageIndex(imgind);
     }
   }
+
+  useEffect(() => {
+    const interval = setInterval(() => {
+      if (imageIndex === maxImgIndex) {
+        setImageIndex(0);
+      } else {
+        let imgind = imageIndex + 1;
+        setImageIndex(imgind);
+      }
+    }, 3000);
+
+    return () => clearInterval(interval);
+  }, [imageIndex, maxImgIndex]);
+
+  // function changeImage() {
+  //   console.log("change");
+  //   setInterval(() => {
+  //     if (imageIndex === maxImgIndex) {
+  //       setImageIndex(0);
+  //     } else {
+  //       let imgind = imageIndex + 1;
+  //       setImageIndex(imgind);
+  //     }
+  //   }, 1000);
+  // }
 
   return (
     <div className='project'>
