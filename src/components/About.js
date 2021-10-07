@@ -21,17 +21,16 @@ export default function About() {
       <div className='about-container'>
         <h1>About me</h1>
         <div className='infopic-container'>
-          <div className='photo'>
+          {/* <div className='photo'>
             <img src={photo} alt="It's me" />
-          </div>
+          </div> */}
           <div className='info'>
             <p>
               Hi! My name is Mike Alessi and I'm a former tech Salesperson
               turned Full-stack Developer and a recent graduate of Fullstack
               Academy. I love building things, solving problems, and learning
-              about new technologies. I've always had an interest in web
-              development which have stemmed from building simple personal
-              websites on Geocities back in the day.
+              about new technologies. After working within the business side of
+              tech, I wanted to move on from selling products to building them!
             </p>
           </div>
         </div>
